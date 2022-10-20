@@ -1,0 +1,57 @@
+.Page {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000cc;
+    margin: 0 2rem;
+    padding: 2rem;
+    line-height: 1.2rem;
+}
+
+.Header {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.Text {
+    display: inline;
+}
+
+.Img {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    border: var(--primary) solid 4px;
+    box-shadow: 5px 5px 15px var(--shadow);
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 1025px) { 
+    .Header {
+        order: -1;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .Text {
+        width: calc(50vw - 2rem);
+        padding-left: 2rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .Page {
+        align-items: flex-start;
+    }
+}

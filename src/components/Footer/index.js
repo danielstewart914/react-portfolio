@@ -5,13 +5,13 @@ const Footer = () => {
         <footer className={styles.Footer}>
             <address className={styles.Address}>
                 <a href='https://www.linkedin.com/in/daniel-stewart-230b1623a/' target='_blank' rel='noreferrer'>
-                    <img src='images/In-blue-logo.png' alt='LinkedIn Icon' className={styles.Icon} />&nbsp;LinkedIn
+                    <img src='/images/In-blue-logo.png' alt='LinkedIn Icon' className={styles.Icon} />&nbsp;LinkedIn
                 </a>
                 <a href='https://github.com/danielstewart914'>
-                    <img src='images/GitHub-Mark-120px-plus.webp' alt='GitHub Icon' className={styles.Icon} />&nbsp;GitHub 
+                    <img src='/images/GitHub-Mark-120px-plus.webp' alt='GitHub Icon' className={styles.Icon} />&nbsp;GitHub 
                 </a>
                 <a href='mailto:danielstewart914@outlook.com'>
-                    <img src='images/envelope.svg' alt='Email Icon' className={styles.Icon} />&nbsp;danielstewart914@outlook.com
+                    <img src='/images/envelope.svg' alt='Email Icon' className={styles.Icon} />&nbsp;danielstewart914@outlook.com
                 </a>
             </address>
         </footer>
