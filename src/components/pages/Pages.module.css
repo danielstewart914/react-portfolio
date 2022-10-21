@@ -4,8 +4,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #000000cc;
-    margin: 0 2rem;
+    background-color: #000000dd;
+    margin: 0;
     padding: 2rem;
     line-height: 1.2rem;
 }
@@ -26,6 +26,12 @@
     display: inline;
 }
 
+.Container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .Img {
     width: 40vw;
     height: 40vw;
@@ -35,6 +41,12 @@
     box-shadow: 5px 5px 15px var(--shadow);
     margin-bottom: 2rem;
     margin-right: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+    .Page {
+        margin: 0 2rem;
+    }
 }
 
 @media screen and (min-width: 1025px) { 

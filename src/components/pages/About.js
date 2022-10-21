@@ -3,7 +3,7 @@ import styles from './Pages.module.css';
 const About = () => {
     return (
         <div className={styles.Page}>
-            <img className={styles.Img} src='/images/profile-1.webp' alt='Daniel Stewart' title='Daniel Stewart' />
+            <img className={styles.Img} src={process.env.PUBLIC_URL + '/images/profile-1.webp'} alt='Daniel Stewart' title='Daniel Stewart' />
             <h3 className={styles.Header}>About Me</h3>
             <p className={styles.Text}>
                     My name is Daniel Stewart. I am an aspiring Full stack Web Developer. I am currently attending the University of Washington Full Stack Coding Boot Camp.
