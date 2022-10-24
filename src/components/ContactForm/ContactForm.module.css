@@ -1,0 +1,62 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 0.4rem;
+}
+
+.Button {
+    cursor: pointer;
+    align-self: start;
+    font-size: 1.25rem;
+    padding: 0.5em 1em;
+    background-color: var(--dark-grey);
+    color: white;
+    border-radius: 0.25em;
+    border: 2px solid var(--light);
+}
+
+.Button:hover {
+    color: black;
+    background-color: var(--light-grey);
+    border-color: var(--middle-grey);
+}
+
+.Message {
+    margin: 0 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.Footer {
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1025px) { 
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) { 
+    form {
+        width: 70%;
+    }
+}

@@ -1,7 +1,7 @@
 import styles from './Pages.module.css';
-import Project from '../Project';
+import Project from '../components/Project';
 
-const projects = require( '../../data/projects.json' );
+const projects = require( '../data/projects.json' );
 
 const Portfolio = () => {
     const displayProjects = () =>  projects.map( project => <Project {...project} /> ) 
