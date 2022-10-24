@@ -1,3 +1,17 @@
+h4 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid white;
+}
+
+ul {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    list-style: disc;
+    margin-left: 2rem;
+}
+
 .Page {
     color: white;
     display: flex;
@@ -41,6 +55,24 @@
     box-shadow: 5px 5px 15px var(--shadow);
     margin-bottom: 2rem;
     margin-right: 1rem;
+}
+
+.Button {
+    cursor: pointer;
+    align-self: start;
+    font-size: 1.25rem;
+    padding: 0.5em 1em;
+    background-color: var(--dark-grey);
+    color: white;
+    border-radius: 0.25em;
+    border: 2px solid var(--light);
+    text-decoration: none;
+}
+
+.Note {
+    font-size: 1rem;
+    color: var(--light-grey);
+    margin-left: 0.5rem;
 }
 
 @media screen and (min-width: 576px) {
