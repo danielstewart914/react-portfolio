@@ -55,3 +55,21 @@ pre, code {
 ol, ul {
   list-style: none;
 }
+
+.Button {
+  cursor: pointer;
+  align-self: start;
+  font-size: 1.25rem;
+  padding: 0.5em 1em;
+  background-color: var(--dark-grey);
+  color: white;
+  border-radius: 0.25em;
+  border: 2px solid var(--light);
+  text-decoration: none;
+}
+
+.Button:hover {
+  color: black;
+  background-color: var(--light-grey);
+  border-color: var(--middle-grey);
+}

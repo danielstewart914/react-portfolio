@@ -110,7 +110,7 @@ const ContactForm = () => {
             </label>
             <div className={styles.Footer}>
                 <button 
-                    className={styles.Button}
+                    className='Button'
                     onClick={handleFormSubmit}
                 >
                     Submit

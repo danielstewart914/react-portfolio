@@ -29,7 +29,7 @@ const Resume = () => {
                     <li>GraphQL</li>
                 </ul>
             </div>
-            <a className={styles.Button} href="https://docs.google.com/document/d/1_bgLvFgLEJa_7i7W_jyyEYFnE18nEYasB5B036jXT-8/edit?usp=sharing"  title="Resumé" target="_blank" rel="noreferrer">Download My Resumé</a>
+            <a className='Button' href="https://docs.google.com/document/d/1_bgLvFgLEJa_7i7W_jyyEYFnE18nEYasB5B036jXT-8/edit?usp=sharing"  title="Resumé" target="_blank" rel="noreferrer">Download My Resumé</a>
         </div>
     )
 }
