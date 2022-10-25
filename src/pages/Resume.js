@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <div className={styles.PageCol}>
             <h3  className={styles.Header}>Resumé</h3>
-            <a className='Button' href="https://docs.google.com/document/d/1_bgLvFgLEJa_7i7W_jyyEYFnE18nEYasB5B036jXT-8/edit?usp=sharing"  title="Resumé" target="_blank" rel="noreferrer">Download My Resumé</a>
+            <a className='Button' href="https://docs.google.com/document/d/1TP-hMAzE4rgEmGpgLo7xNRkmcjwgOkyykAdrzLWO86o/edit?usp=sharing"  title="Resumé" target="_blank" rel="noreferrer">Download My Resumé</a>
             <div>
                 <h4 className={styles.Subheader}>Front-End Proficiencies</h4>
                 <ul className={styles.ResumeList}>
