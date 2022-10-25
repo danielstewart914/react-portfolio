@@ -1,4 +1,4 @@
-h4 {
+.Subheader {
     font-size: 2rem;
     line-height: 2.25rem;
     padding-bottom: 0.5rem;
@@ -6,7 +6,7 @@ h4 {
     border-bottom: 2px solid white;
 }
 
-ul {
+.ResumeList {
     display: flex;
     flex-wrap: wrap;
     font-size: 1.25rem;
@@ -14,9 +14,11 @@ ul {
     margin-left: 2rem;
 }
 
-li {
+.ResumeList > li {
     padding: 1rem;
     text-align: center;
+    flex: 1 1 0%;
+    
 }
 
 .Page, .PageCol {

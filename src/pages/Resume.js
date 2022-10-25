@@ -6,8 +6,8 @@ const Resume = () => {
             <h3  className={styles.Header}>Resumé</h3>
             <a className='Button' href="https://docs.google.com/document/d/1_bgLvFgLEJa_7i7W_jyyEYFnE18nEYasB5B036jXT-8/edit?usp=sharing"  title="Resumé" target="_blank" rel="noreferrer">Download My Resumé</a>
             <div>
-                <h4>Front-End Proficiencies</h4>
-                <ul>
+                <h4 className={styles.Subheader}>Front-End Proficiencies</h4>
+                <ul className={styles.ResumeList}>
                     <li>
                         <img 
                             src={process.env.PUBLIC_URL + '/images/icons/html5.svg'} 
@@ -67,8 +67,8 @@ const Resume = () => {
                 </ul>
             </div>
             <div>
-            <h4>Back-End Proficiencies</h4>
-                <ul>
+            <h4 className={styles.Subheader}>Back-End Proficiencies</h4>
+                <ul className={styles.ResumeList}>
                     <li>
                         <img 
                             src={process.env.PUBLIC_URL + '/images/icons/nodedotjs.svg'} 
