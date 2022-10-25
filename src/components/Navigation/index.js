@@ -24,7 +24,7 @@ const Navbar = ( { currentPage, changePage } ) => {
             <button 
                 className={ currentPage === 'resume' ? styles.Selected : styles.Button}
                 onClick={ () => changePage( 'resume' ) } 
-                title='Resumé - Coming Soon...'
+                title='Resumé'
             >
                 Resumé
             </button>

@@ -22,7 +22,7 @@ const ContactForm = () => {
         message: 'You must enter a message!'
     }
 
-    // test methods for input
+    // test methods for input elements
     const check = {
         name: value => {
             return value.length ? true : false;
@@ -66,6 +66,7 @@ const ContactForm = () => {
 
         // add code to submit code to backend server
 
+        // reset inputs
         setName('');
         setEmail('');
         setMessage('');
