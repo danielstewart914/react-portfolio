@@ -58,9 +58,9 @@ ol, ul {
 
 .Button {
   cursor: pointer;
-  align-self: start;
   font-size: 1.25rem;
   padding: 0.5em 1em;
+  margin: 0.5rem;
   background-color: var(--dark-grey);
   color: white;
   border-radius: 0.25em;

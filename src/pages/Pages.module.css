@@ -1,18 +1,25 @@
 h4 {
     font-size: 2rem;
+    line-height: 2.25rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin: 1rem 0;
     border-bottom: 2px solid white;
 }
 
 ul {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    list-style: disc;
     margin-left: 2rem;
 }
 
-.Page {
+li {
+    padding: 1rem;
+    text-align: center;
+}
+
+.Page, .PageCol {
     color: white;
     display: flex;
     justify-content: space-around;
@@ -22,6 +29,11 @@ ul {
     margin: 0;
     padding: 2rem;
     line-height: 1.2rem;
+}
+
+.PageCol {
+    flex-direction: column;
+    align-items: center;
 }
 
 .Header {
@@ -38,6 +50,10 @@ ul {
 
 .Text {
     display: inline;
+}
+
+.Icon {
+    height: 3rem;
 }
 
 .Container {
