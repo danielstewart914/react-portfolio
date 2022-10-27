@@ -82,7 +82,7 @@
 }
 
 @media screen and (min-width: 576px) {
-    .Page {
+    .Page, .PageCol {
         margin: 0 2rem;
     }
 }
@@ -101,7 +101,7 @@
         line-height: 1.5rem;
     }
 
-    .Page {
+    .Page, .PageCol {
         align-items: flex-start;
     }
 }
