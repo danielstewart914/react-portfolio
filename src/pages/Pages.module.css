@@ -101,7 +101,7 @@
         line-height: 1.5rem;
     }
 
-    .Page, .PageCol {
+    .Page {
         align-items: flex-start;
     }
 }
