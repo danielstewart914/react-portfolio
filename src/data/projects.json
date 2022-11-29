@@ -1,5 +1,20 @@
 [
     {
+        "title": "BeanBuddy",
+        "tech": [
+            "React",
+            "MongoDB",
+            "Node.js",
+            "Express",
+            "GraphQL",
+            "AWS S3"
+        ],
+        "img": "/images/BeanBuddy.webp",
+        "appLink": "https://bean-buddy.herokuapp.com/",
+        "repoLink": "https://github.com/danielstewart914/beanBuddy",
+        "key": 1
+    },
+    {
         "title": "JOIN Our Table",
         "tech": [
             "Javascript",
@@ -11,7 +26,7 @@
         "img": "/images/JOIN-Our-Table-Thumb.webp",
         "appLink": "https://join-our-table.herokuapp.com/",
         "repoLink": "https://github.com/danielstewart914/JOIN-our-table",
-        "key": 1
+        "key": 2
     },
     {
         "title": "JavaScript Quiz",
@@ -23,7 +38,7 @@
         "img": "/images/javascript-quiz.webp",
         "appLink": "https://danielstewart914.github.io/quiz-game/",
         "repoLink": "https://github.com/danielstewart914/quiz-game",
-        "key": 2
+        "key": 3
     },
     {
         "title": "Weather Dashboard",
@@ -37,7 +52,7 @@
         "img": "/images/weather-dashboard.webp",
         "appLink": "https://danielstewart914.github.io/weather-dashboard/",
         "repoLink": "https://github.com/danielstewart914/weather-dashboard",
-        "key": 3
+        "key": 4
     },
     {
         "title": "Cards for Jokes",
@@ -51,7 +66,7 @@
         "img": "/images/cards-for-jokes.webp",
         "appLink": "https://danielstewart914.github.io/cards-for-jokes-v2.0/",
         "repoLink": "https://github.com/danielstewart914/cards-for-jokes-v2.0",
-        "key": 4
+        "key": 5
     },
     {
         "title": "Employee Tracker",
@@ -64,6 +79,6 @@
         "img": "/images/employee-tracker.webp",
         "appLink": "https://github.com/danielstewart914/employee-tracker",
         "repoLink": "https://github.com/danielstewart914/employee-tracker",
-        "key": 5
+        "key": 6
     }
 ]
