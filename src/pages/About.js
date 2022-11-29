@@ -6,7 +6,7 @@ const About = () => {
             <img className={styles.Img} src={process.env.PUBLIC_URL + '/images/profile-1.webp'} alt='Daniel Stewart' title='Daniel Stewart' />
             <h3 className={styles.Header}>About Me</h3>
             <p className={styles.Text}>
-                    My name is Daniel Stewart. I am an aspiring Full stack Web Developer. I am currently attending the University of Washington Full Stack Coding Boot Camp.
+                    My name is Daniel Stewart. I am a Full stack Web Developer and recent Graduate from the University of Washington Full Stack Coding Boot Camp.
                     <br />
                     My career so far has primarily consisted of working in a retail environment, where I gained a passion for providing great Customer Service.
                     I have always had a deep love of computers, electronics, and software. I love analyzing problems and creating novel solutions.
