@@ -5,27 +5,27 @@ const Navbar = () => {
   const location = useLocation();
   return (
     <nav className={styles.Nav}>
-      {console.log(location.pathname, process.env.PUBLIC_URL)}
       <Link 
-        className={ 
-          location.pathname === process.env.PUBLIC_URL ? styles.Selected : styles.Button } to={process.env.PUBLIC_URL}>
+        className={ location.pathname === '/' ? styles.Selected : styles.Button } 
+        to='/'
+      >
         About Me
       </Link>
       <Link
-        className={ location.pathname === process.env.PUBLIC_URL + '/portfolio' ? styles.Selected : styles.Button } 
-        to={process.env.PUBLIC_URL + '/portfolio'}
+        className={ location.pathname === 'portfolio' ? styles.Selected : styles.Button } 
+        to='/portfolio'
       >
         Portfolio
       </Link>
       <Link 
-        className={ location.pathname === process.env.PUBLIC_URL + '/contact' ? styles.Selected : styles.Button } 
-        to={process.env.PUBLIC_URL + '/contact'}
+        className={ location.pathname === 'contact' ? styles.Selected : styles.Button } 
+        to='/contact'
       >
         Contact Me
       </Link>
       <Link 
-        className={ location.pathname === process.env.PUBLIC_URL + '/resume' ? styles.Selected : styles.Button } 
-        to={process.env.PUBLIC_URL + '/resume'}
+        className={ location.pathname === 'resume' ? styles.Selected : styles.Button } 
+        to='/resume'
       >
         Resumé
       </Link>

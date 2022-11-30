@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,19 +18,19 @@ function App() {
               <h2 className='Banner'>Welcome to my Portfolio</h2>
                 <Routes>
                   <Route
-                    path={process.env.PUBLIC_URL + '/'}
+                    path={'/'}
                     element={<About />}
                   />
                   <Route
-                    path={process.env.PUBLIC_URL + '/portfolio'}
+                    path={'portfolio'}
                     element={<Portfolio />}
                   />
                   <Route
-                    path={process.env.PUBLIC_URL + '/contact'}
+                    path={'contact'}
                     element={<Contact />}
                   />
                   <Route
-                    path={process.env.PUBLIC_URL + '/resume'}
+                    path={'resume'}
                     element={<Resume />}
                   />
                 </Routes>
