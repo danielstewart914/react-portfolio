@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -7,28 +6,38 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
-import Main from './components/Main';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [ currentPage, setCurrentPage ] = useState( 'about' );
-
-  const renderPage = () => {
-      if ( currentPage === 'about' ) return <About />;
-      if ( currentPage === 'portfolio' ) return <Portfolio />;
-      if ( currentPage === 'contact' ) return <Contact />;
-      if ( currentPage === 'resume' ) return <Resume />;
-      
-  }
-
-  const changePage = ( page ) => setCurrentPage( page );
-
   return (
-      <>
+    <>
+      <Router>
           <Header />
-          <Navigation  currentPage={ currentPage } changePage={ changePage } />
-          <Main renderPage={ renderPage } />
+          <Navigation />
+            <main className='Main'>
+              <h2 className='Banner'>Welcome to my Portfolio</h2>
+                <Routes>
+                  <Route
+                    path={process.env.PUBLIC_URL + '/'}
+                    element={<About />}
+                  />
+                  <Route
+                    path={process.env.PUBLIC_URL + '/portfolio'}
+                    element={<Portfolio />}
+                  />
+                  <Route
+                    path={process.env.PUBLIC_URL + '/contact'}
+                    element={<Contact />}
+                  />
+                  <Route
+                    path={process.env.PUBLIC_URL + '/resume'}
+                    element={<Resume />}
+                  />
+                </Routes>
+            </main>
           <Footer />
-      </>
+      </Router>
+    </>
   )
   
 }

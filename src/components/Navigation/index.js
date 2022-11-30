@@ -1,35 +1,36 @@
 import styles from './Navigation.module.css';
+import { useLocation, Link } from 'react-router-dom';
 
-const Navbar = ( { currentPage, changePage } ) => {
-    return (
-        <nav className={styles.Nav}>
-            <button 
-                className={ currentPage === 'about' ? styles.Selected : styles.Button} 
-                onClick={ () => changePage( 'about' ) }
-            >
-                About Me
-            </button>
-            <button 
-                className={ currentPage === 'portfolio' ? styles.Selected : styles.Button} 
-                onClick={ () => changePage( 'portfolio' ) }
-            >
-                Portfolio
-            </button>
-            <button 
-                className={ currentPage === 'contact' ? styles.Selected : styles.Button} 
-                onClick={ () => changePage( 'contact' ) }
-            >
-                Contact Me
-            </button>
-            <button 
-                className={ currentPage === 'resume' ? styles.Selected : styles.Button}
-                onClick={ () => changePage( 'resume' ) } 
-                title='Resumé'
-            >
-                Resumé
-            </button>
-        </nav>
-    )
+const Navbar = () => {
+  const location = useLocation();
+  return (
+    <nav className={styles.Nav}>
+      {console.log(location.pathname, process.env.PUBLIC_URL)}
+      <Link 
+        className={ 
+          location.pathname === process.env.PUBLIC_URL ? styles.Selected : styles.Button } to={process.env.PUBLIC_URL}>
+        About Me
+      </Link>
+      <Link
+        className={ location.pathname === process.env.PUBLIC_URL + '/portfolio' ? styles.Selected : styles.Button } 
+        to={process.env.PUBLIC_URL + '/portfolio'}
+      >
+        Portfolio
+      </Link>
+      <Link 
+        className={ location.pathname === process.env.PUBLIC_URL + '/contact' ? styles.Selected : styles.Button } 
+        to={process.env.PUBLIC_URL + '/contact'}
+      >
+        Contact Me
+      </Link>
+      <Link 
+        className={ location.pathname === process.env.PUBLIC_URL + '/resume' ? styles.Selected : styles.Button } 
+        to={process.env.PUBLIC_URL + '/resume'}
+      >
+        Resumé
+      </Link>
+    </nav>
+  )
 }
 
 export default Navbar;
