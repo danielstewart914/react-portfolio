@@ -13,7 +13,7 @@ I enjoy being creative and wanted to shout out my favorite parts of this project
 ### Deployed Application
 Click [Here](https://danielstewart914.github.io/react-portfolio/) or on the image below to view my Portfolio.
 
-[![Portfolio Preview](images/portfolio-preview.webp)](https://danielstewart914.github.io/react-portfolio/)
+[![Portfolio Preview](images/PortfolioPreview.webp)](https://danielstewart914.github.io/react-portfolio/)
 ## Table of Contents
 
 - [License](#license)
