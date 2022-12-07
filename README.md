@@ -7,7 +7,7 @@ A simple React based Portfolio for Homework assignment.
 
 I enjoy being creative and wanted to shout out my favorite parts of this project.
 
-* I made a Custom Logo using draw.io to use as a favicon. I then recreated it by using CSS styling to display the logo on my page.
+* I created a hand coded SVG for my personal logo based on an initial draft logo created I in draw.io to use as a favicon.
 * Created a simple command line tool for adding additional Projects to my portfolio simply by answering a few prompts from inquirer.
 
 ### Deployed Application

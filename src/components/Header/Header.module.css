@@ -11,6 +11,12 @@
     z-index: 1;
 }
 
+.Logo {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    margin: var(--title-margin);
+}
+
 /* header title */
 .Header h1 {
     font-size: 40px;
