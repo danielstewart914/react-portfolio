@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" stroke="#000" viewBox="0 0 1000 1000" stroke-width="15">
+  <rect 
+    width="985" 
+    height="985" 
+    fill="#eef9fb"
+    x="7.5" 
+    y="7.5"
+  />
+  <path
+    d="m 100 850 l 0 -700 a 1 1 0 0 1 0 700 z" 
+    fill="#0b3142"
+  />
+  <path 
+    d="m 920 228 l -350 350 a 1 1 0 0 1 350 -350 z M 850 420 l -350 350 a 1 1 0 0 0 350 -350 z" 
+    fill="#515867" 
+  />
+</svg>
