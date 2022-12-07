@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/www.danielstewartportfolio.com/static/css/main.b45ab842.css",
-    "main.js": "/www.danielstewartportfolio.com/static/js/main.12803730.js",
-    "static/media/bellevue-skyline.webp": "/www.danielstewartportfolio.com/static/media/bellevue-skyline.08a483ae24114db9f161.webp",
-    "index.html": "/www.danielstewartportfolio.com/index.html",
-    "main.b45ab842.css.map": "/www.danielstewartportfolio.com/static/css/main.b45ab842.css.map",
-    "main.12803730.js.map": "/www.danielstewartportfolio.com/static/js/main.12803730.js.map"
+    "main.css": "/static/css/main.990d58c8.css",
+    "main.js": "/static/js/main.56fd58f5.js",
+    "static/media/bellevue-skyline.webp": "/static/media/bellevue-skyline.08a483ae24114db9f161.webp",
+    "index.html": "/index.html",
+    "main.990d58c8.css.map": "/static/css/main.990d58c8.css.map",
+    "main.56fd58f5.js.map": "/static/js/main.56fd58f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b45ab842.css",
-    "static/js/main.12803730.js"
+    "static/css/main.990d58c8.css",
+    "static/js/main.56fd58f5.js"
   ]
 }
