@@ -1,8 +1,5 @@
 .ProjectCard {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    position: relative;
     background-size: 150%;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,18 +9,26 @@
     width: 100%;
 }
 
+.CardLink {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
 .Column {
     padding: 1.5rem;
     width: 100%;
 }
 
-.TitleCard, .RepoCard {
+.TitleCard, 
+.RepoCard {
     background-color: var(--middle-grey);
     color:var(--white);
     text-align: center;
     padding: 10px 15px;
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
     align-self: flex-start;
 }
 
@@ -32,10 +37,13 @@
 }
 
 .RepoCard {
-    align-self: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
 }
 
-.RepoCard img {
+.RepoCard > img {
     height: 2rem;
     width: 2rem;
     filter: invert(1);
@@ -59,12 +67,22 @@
     font-weight: 550;
 }
 
-.TitleCard:hover, .TitleCard:focus, .RepoCard:hover, .RepoCard:focus {
+
+.ProjectCard:hover .TitleCard, 
+.ProjectCard:focus .TitleCard, 
+.RepoCard:hover, 
+.RepoCard:focus {
     background-color: var(--dark-grey);
 }
 
+.ProjectCard:hover, 
+.ProjectCard:focus {
+    scale: 1.05;
+}
+
 @media screen and (min-width: 576px) {
-    .Subtitle, .Github {
+    .Subtitle, 
+    .Github {
         display: block;
     } 
 

@@ -26,9 +26,11 @@ const Project = ( { title, img, tech, appLink, repoLink } ) => {
     return (
         <div className={styles.Column}>
             <div className={styles.ProjectCard} style={ { backgroundImage: `url(${process.env.PUBLIC_URL + img })` } }>
-                <a href={appLink} className={styles.TitleCard}>
-                    <h4 className={styles.Title}>{ title }</h4>
-                    {renderSubtitles( tech )}
+                <a className={styles.CardLink} href={appLink}>
+                    <div className={styles.TitleCard}>
+                        <h4 className={styles.Title}>{ title }</h4>
+                        {renderSubtitles( tech )}
+                    </div>
                 </a>
                 <a href={repoLink} className={styles.RepoCard}>
                     <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-120px-plus.webp'} alt='Github Logo' />
