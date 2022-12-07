@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.Header {
+.Header, .ActivityTitle {
     color: white;
     text-align: center;
     font-size: 1.5rem;
@@ -50,7 +50,13 @@
     line-height: 1.5rem;
 }
 
-.Text {
+.ActivityTitle {
+    margin-top: 1rem;
+    margin-inline: auto;
+    max-width: 900px;
+}
+
+.Info {
     display: inline;
 }
 
@@ -87,14 +93,14 @@
     }
 }
 
-@media screen and (min-width: 1025px) { 
+@media screen and (min-width: 1300px) { 
     .Header {
         order: -1;
         font-size: 2rem;
         margin: 2rem 0;
     }
 
-    .Text {
+    .Info {
         width: calc(50vw - 2rem);
         padding-left: 2rem;
         font-size: 1.25rem;
