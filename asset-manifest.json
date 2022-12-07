@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2fcf7e81.css",
-    "main.js": "/react-portfolio/static/js/main.1e652ebf.js",
-    "static/media/bellevue-skyline.webp": "/react-portfolio/static/media/bellevue-skyline.08a483ae24114db9f161.webp",
-    "index.html": "/react-portfolio/index.html",
-    "main.2fcf7e81.css.map": "/react-portfolio/static/css/main.2fcf7e81.css.map",
-    "main.1e652ebf.js.map": "/react-portfolio/static/js/main.1e652ebf.js.map"
+    "main.css": "/static/css/main.990d58c8.css",
+    "main.js": "/static/js/main.56fd58f5.js",
+    "static/media/bellevue-skyline.webp": "/static/media/bellevue-skyline.08a483ae24114db9f161.webp",
+    "index.html": "/index.html",
+    "main.990d58c8.css.map": "/static/css/main.990d58c8.css.map",
+    "main.56fd58f5.js.map": "/static/js/main.56fd58f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fcf7e81.css",
-    "static/js/main.1e652ebf.js"
+    "static/css/main.990d58c8.css",
+    "static/js/main.56fd58f5.js"
   ]
 }
