@@ -1,5 +1,4 @@
 :root {
-
   /* custom colors */
   --primary: #0b3142ff;
   --middle-grey: #515867ff;
@@ -93,8 +92,42 @@ ol, ul {
   font-weight: 700;
 }
 
+.Page {
+  display: grid;
+  background-color: #000000dd;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.2rem;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+}
+
+.fade-exit-active, .fade-enter-active{
+  transition: opacity 400ms ease-in-out;
+}
+
 @media screen and (min-width: 576px) {
   .Banner {
       margin: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .Page {
+      margin: 0 2rem;
   }
 }
