@@ -15,15 +15,20 @@ const About = () => {
       <img className={styles.Img} src={process.env.PUBLIC_URL + '/images/profile-1.webp'} alt='Daniel Stewart' title='Daniel Stewart' />
       <h3 className={styles.Header}>About Me</h3>
       <div className={styles.Info}>
-        <p>
+        <p style={{paddingBottom: '1rem'}}>
           My name is Daniel Stewart. I am a Full stack Web Developer and recent Graduate from the University of Washington Full Stack Coding Boot Camp.
           <br />
           My career so far has primarily consisted of working in a retail environment, where I gained a passion for providing great Customer Service.
-          I have always had a deep love of computers, electronics, and software. I love analyzing problems and creating novel solutions.
-          I strive to meet or exceed expectations, whether they are the expectations of a customer, a supervisor, or even my own.
-          I'm passionate about learning new things and gaining a new perspective, allowing me to solve complex and everyday problems. I consider myself to be a self-starter, who is highly motivated
-          and able to succeed working alone or on a team. 
           <br />
+          As a highly motivated and detail-oriented web developer with a lifelong passion for science and technology, I bring a unique blend of technical expertise, creativity, and strong problem-solving abilities to every project I work on. 
+          I am dedicated to continuously learning new tools and techniques to deliver high-quality and intuitive products. 
+          My ability to work well in a team setting, and drive success with collaboration and active participation make me an asset to any organization. 
+          I am confident in my ability to quickly become a valuable contributor and make a meaningful impact on your company.
+        </p>
+        <p style={{paddingBottom: '1rem'}}>
+          TLDR: I build websites.
+        </p>
+        <p>
           In my free time I enjoy hiking, gourmet cooking, and nature photography.
         </p>
         <div>
