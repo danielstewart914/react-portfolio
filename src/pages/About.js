@@ -18,9 +18,8 @@ const About = () => {
         <p style={{paddingBottom: '1rem'}}>
           My name is Daniel Stewart. I am a recent graduate from the University of Washington Full Stack Coding Bootcamp and a Full-Stack Web Developer.<br />
           My background in providing exceptional customer service in a retail environment, has instilled in me a passion for delivering intuitive, user-centric solutions.
-          As a highly motivated and detail-oriented web developer with a lifelong passion for science and technology, I bring a unique blend of technical expertise, creativity, and strong problem-solving abilities to every project I work on. 
-          I am dedicated to continuously learning new tools and techniques to deliver high-quality and intuitive products. 
-          My ability to work well in a team setting, and drive success with collaboration and active participation make me an asset to any organization. 
+          As a highly motivated web developer with a lifelong passion for science and technology, I bring a unique blend of technical expertise, creativity, and strong problem-solving abilities to every project I work on.<br />
+          I am dedicated to continuously learning new tools and techniques to deliver high-quality and intuitive products. My ability to work well in a team setting, and drive success with collaboration and active participation make me an asset to any organization.
           I am confident in my ability to quickly become a valuable contributor and make a meaningful impact on your company.
         </p>
         <p style={{paddingBottom: '1rem'}}>
