@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className={styles.Footer}>
             <address className={styles.Address}>
-                <a href='https://www.linkedin.com/in/daniel-stewart-230b1623a/' target='_blank' rel='noreferrer'>
+                <a href='https://www.linkedin.com/in/danielstewart914/' target='_blank' rel='noreferrer'>
                     <img src={process.env.PUBLIC_URL + '/images/In-blue-logo.png'} alt='LinkedIn Icon' className={styles.Icon} />&nbsp;LinkedIn
                 </a>
                 <a href='https://github.com/danielstewart914'>
