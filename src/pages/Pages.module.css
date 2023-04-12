@@ -1,9 +1,26 @@
 .Subheader {
+	border-bottom: 2px solid white;
 	font-size: 2rem;
 	line-height: 2.25rem;
-	padding-bottom: 0.5rem;
 	margin: 1rem 0;
+	padding-bottom: 0.5rem;
+	padding-inline: 1rem;
+	width: fit-content;
+}
+
+.Group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.GroupTitle {
 	border-bottom: 2px solid white;
+	font-size: 1.5rem;
+	margin: 1rem auto;
+	min-width: 100%;
+	padding-bottom: 0.75rem;
+	text-align: center;
 }
 
 .ResumeList {

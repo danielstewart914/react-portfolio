@@ -56,14 +56,15 @@ ol, ul {
 }
 
 .Button {
-  cursor: pointer;
-  font-size: 1.25rem;
-  padding: 0.5em 1em;
-  margin: 0.5rem;
   background-color: var(--dark-grey);
-  color: white;
   border-radius: 0.25em;
   border: 2px solid var(--light);
+  color: white;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin: 0.5rem;
+  padding: 0.5em 1em;
+  text-align: center;
   text-decoration: none;
 }
 
