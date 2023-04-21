@@ -10,7 +10,7 @@
             "AWS S3"
         ],
         "img": "/images/BeanBuddy.webp",
-        "appLink": "https://bean-buddy.herokuapp.com/",
+        "appLink": "https://beanbuddy.danielstewartportfolio.com/",
         "repoLink": "https://github.com/danielstewart914/beanBuddy",
         "key": 1
     },
@@ -24,7 +24,7 @@
             "AWS S3"
         ],
         "img": "/images/JOIN-Our-Table-Thumb.webp",
-        "appLink": "https://join-our-table.herokuapp.com/",
+        "appLink": "https://jot.danielstewartportfolio.com",
         "repoLink": "https://github.com/danielstewart914/JOIN-our-table",
         "key": 2
     },
@@ -36,7 +36,7 @@
             "CSS"
         ],
         "img": "/images/javascript-quiz.webp",
-        "appLink": "https://danielstewart914.github.io/quiz-game/",
+        "appLink": "https://quiz.danielstewartportfolio.com/",
         "repoLink": "https://github.com/danielstewart914/quiz-game",
         "key": 3
     },
@@ -50,7 +50,7 @@
             "Bootstrap"
         ],
         "img": "/images/weather-dashboard.webp",
-        "appLink": "https://danielstewart914.github.io/weather-dashboard/",
+        "appLink": "https://weather.danielstewartportfolio.com/",
         "repoLink": "https://github.com/danielstewart914/weather-dashboard",
         "key": 4
     },
@@ -64,7 +64,7 @@
             "Materialize CSS"
         ],
         "img": "/images/cards-for-jokes.webp",
-        "appLink": "https://danielstewart914.github.io/cards-for-jokes-v2.0/",
+        "appLink": "https://cards.danielstewartportfolio.com/",
         "repoLink": "https://github.com/danielstewart914/cards-for-jokes-v2.0",
         "key": 5
     },
