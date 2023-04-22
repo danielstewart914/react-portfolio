@@ -1,44 +1,44 @@
 /* navigation menu */
 .Nav {
-    position: fixed;
-    top: 100px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    z-index: 1;
+  position: fixed;
+  top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  z-index: 1;
 }
 
 .Button, .Selected {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border: 1px solid black;
-    background-color: var(--dark-grey);
-    font-size: 20px;
-    color: var(--light);
-    text-align: center;
-    height: var(--nav-item);
-    width: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: var(--dark-grey);
+  font-size: 20px;
+  color: var(--light);
+  text-align: center;
+  height: var(--nav-item);
+  width: 50%;
 }
 
 
 /* highlight menu */
 .Button:hover, .Button:focus, .Selected {
-    background: var(--light-grey);
-    color: var(--black);
+  background: var(--light-grey);
+  color: var(--black);
 }
 
 @media screen and (min-width: 1025px) {
-    .Nav {
-		flex-wrap: nowrap;
-        top: 140px;
-    }
+  .Nav {
+  flex-wrap: nowrap;
+    top: 140px;
+  }
 
-    .Button, .Selected {
-        width: 25%;
-        height: var(--nav-item);
-    }
+  .Button, .Selected {
+    width: 25%;
+    height: var(--nav-item);
+  }
 }

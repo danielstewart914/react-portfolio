@@ -67,7 +67,7 @@ const main = async () => {
 
   projects.push( newProject );
 
-  fs.writeFile( './src/data/projects.json', JSON.stringify( projects, null, 4 ), error => error ? console.error( error ) : console.log( 'Projects Updated Successfully' )  );
+  fs.writeFile( './src/data/projects.json', JSON.stringify( projects, null, 2 ), error => error ? console.error( error ) : console.log( 'Projects Updated Successfully' )  );
 }
 
 main();

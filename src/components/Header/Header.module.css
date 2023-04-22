@@ -1,50 +1,50 @@
 .Header {
-    /* header formatting */
-    top: 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    color: var(--light);
-    background-color: var(--primary);
-    height: 100px;
-    width: 100%;
-    z-index: 1;
+  /* header formatting */
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  color: var(--light);
+  background-color: var(--primary);
+  height: 100px;
+  width: 100%;
+  z-index: 1;
 }
 
 .Logo {
-    width: var(--logo-size);
-    height: var(--logo-size);
-    margin: var(--title-margin);
+  width: var(--logo-size);
+  height: var(--logo-size);
+  margin: var(--title-margin);
 }
 
 /* header title */
 .Header h1 {
-    font-size: 40px;
-    text-align: center;
-    margin: var(--title-margin);
-    transition: all 0.8s;
+  font-size: 40px;
+  text-align: center;
+  margin: var(--title-margin);
+  transition: all 0.8s;
 }
 
 .Title {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 @media screen and (min-width: 769px) { 
-    .Header h1 {
-        font-size: 40px;
-    }
+  .Header h1 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
-    .Header {
-        height: 140px;
-        --logo-size: 100px;
-    }
+  .Header {
+    height: 140px;
+    --logo-size: 100px;
+  }
 
-    /* increase size of header title */
-    .Header h1 {
-        font-size: 70px;
-        margin: var(--title-margin) auto;
-    }
+  /* increase size of header title */
+  .Header h1 {
+    font-size: 70px;
+    margin: var(--title-margin) auto;
+  }
 }

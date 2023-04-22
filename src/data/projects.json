@@ -1,84 +1,84 @@
 [
-    {
-        "title": "BeanBuddy",
-        "tech": [
-            "React",
-            "MongoDB",
-            "Node.js",
-            "Express",
-            "GraphQL",
-            "AWS S3"
-        ],
-        "img": "/images/BeanBuddy.webp",
-        "appLink": "https://beanbuddy.danielstewartportfolio.com/",
-        "repoLink": "https://github.com/danielstewart914/beanBuddy",
-        "key": 1
-    },
-    {
-        "title": "JOIN Our Table",
-        "tech": [
-            "Javascript",
-            "Handlebars.js",
-            "Express.js",
-            "Bootstrap",
-            "AWS S3"
-        ],
-        "img": "/images/JOIN-Our-Table-Thumb.webp",
-        "appLink": "https://jot.danielstewartportfolio.com",
-        "repoLink": "https://github.com/danielstewart914/JOIN-our-table",
-        "key": 2
-    },
-    {
-        "title": "JavaScript Quiz",
-        "tech": [
-            "Javascript",
-            "HTML",
-            "CSS"
-        ],
-        "img": "/images/javascript-quiz.webp",
-        "appLink": "https://quiz.danielstewartportfolio.com/",
-        "repoLink": "https://github.com/danielstewart914/quiz-game",
-        "key": 3
-    },
-    {
-        "title": "Weather Dashboard",
-        "tech": [
-            "Javascript",
-            "JQuery",
-            "APIs",
-            "HTML",
-            "Bootstrap"
-        ],
-        "img": "/images/weather-dashboard.webp",
-        "appLink": "https://weather.danielstewartportfolio.com/",
-        "repoLink": "https://github.com/danielstewart914/weather-dashboard",
-        "key": 4
-    },
-    {
-        "title": "Cards for Jokes",
-        "tech": [
-            "Javascript",
-            "JQuery",
-            "APIs",
-            "HTML",
-            "Materialize CSS"
-        ],
-        "img": "/images/cards-for-jokes.webp",
-        "appLink": "https://cards.danielstewartportfolio.com/",
-        "repoLink": "https://github.com/danielstewart914/cards-for-jokes-v2.0",
-        "key": 5
-    },
-    {
-        "title": "Employee Tracker",
-        "tech": [
-            "Javascript",
-            "Node.js",
-            "Inquirer",
-            "Chalk"
-        ],
-        "img": "/images/employee-tracker.webp",
-        "appLink": "https://github.com/danielstewart914/employee-tracker",
-        "repoLink": "https://github.com/danielstewart914/employee-tracker",
-        "key": 6
-    }
+  {
+    "title": "BeanBuddy",
+    "tech": [
+      "React",
+      "MongoDB",
+      "Node.js",
+      "Express",
+      "GraphQL",
+      "AWS S3"
+    ],
+    "img": "/images/BeanBuddy.webp",
+    "appLink": "https://beanbuddy.danielstewartportfolio.com/",
+    "repoLink": "https://github.com/danielstewart914/beanBuddy",
+    "key": 1
+  },
+  {
+    "title": "JOIN Our Table",
+    "tech": [
+      "Javascript",
+      "Handlebars.js",
+      "Express.js",
+      "Bootstrap",
+      "AWS S3"
+    ],
+    "img": "/images/JOIN-Our-Table-Thumb.webp",
+    "appLink": "https://jot.danielstewartportfolio.com",
+    "repoLink": "https://github.com/danielstewart914/JOIN-our-table",
+    "key": 2
+  },
+  {
+    "title": "JavaScript Quiz",
+    "tech": [
+      "Javascript",
+      "HTML",
+      "CSS"
+    ],
+    "img": "/images/javascript-quiz.webp",
+    "appLink": "https://quiz.danielstewartportfolio.com/",
+    "repoLink": "https://github.com/danielstewart914/quiz-game",
+    "key": 3
+  },
+  {
+    "title": "Weather Dashboard",
+    "tech": [
+      "Javascript",
+      "JQuery",
+      "APIs",
+      "HTML",
+      "Bootstrap"
+    ],
+    "img": "/images/weather-dashboard.webp",
+    "appLink": "https://weather.danielstewartportfolio.com/",
+    "repoLink": "https://github.com/danielstewart914/weather-dashboard",
+    "key": 4
+  },
+  {
+    "title": "Cards for Jokes",
+    "tech": [
+      "Javascript",
+      "JQuery",
+      "APIs",
+      "HTML",
+      "Materialize CSS"
+    ],
+    "img": "/images/cards-for-jokes.webp",
+    "appLink": "https://cards.danielstewartportfolio.com/",
+    "repoLink": "https://github.com/danielstewart914/cards-for-jokes-v2.0",
+    "key": 5
+  },
+  {
+    "title": "Employee Tracker",
+    "tech": [
+      "Javascript",
+      "Node.js",
+      "Inquirer",
+      "Chalk"
+    ],
+    "img": "/images/employee-tracker.webp",
+    "appLink": "https://github.com/danielstewart914/employee-tracker",
+    "repoLink": "https://github.com/danielstewart914/employee-tracker",
+    "key": 6
+  }
 ]
