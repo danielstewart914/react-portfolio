@@ -11,9 +11,9 @@ I enjoy being creative and wanted to shout out my favorite parts of this project
 * Created a simple command line tool for adding additional Projects to my portfolio simply by answering a few prompts from inquirer.
 
 ### Deployed Application
-Click [Here](https://danielstewart914.github.io/react-portfolio/) or on the image below to view my Portfolio.
+Click [Here](https://www.danielstewartportfolio.com/) or on the image below to view my Portfolio.
 
-[![Portfolio Preview](images/PortfolioPreview.webp)](https://danielstewart914.github.io/react-portfolio/)
+[![Portfolio Preview](images/PortfolioPreview.webp)](https://www.danielstewartportfolio.com/)
 ## Table of Contents
 
 - [License](#license)
